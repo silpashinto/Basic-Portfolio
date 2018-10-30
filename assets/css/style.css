@@ -1,0 +1,122 @@
+body{
+    line-height: 35px;
+    text-align: center;
+    background: #dddddd;
+    margin: auto;
+    font-size: 20px;
+    }
+    * {
+        box-sizing: border-box;
+    }
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777;
+    border-bottom: 2px solid #cccccc;
+    padding:10px;
+    
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #999999;
+    
+}
+
+/* Add a color to the active/current link */
+.topnav a.active{
+    
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+#name {
+    margin-right: 32.5%;
+    font-size: 30px;    
+    background-color: #4aaaa5;
+    color: #ffffff;
+
+}
+.main_content{
+    background: white;
+    width: 960px;
+    height: auto;
+    margin-left: 18.5%;
+    margin-top:10px;
+    text-align:initial;
+    padding: 10px;
+}
+h2{
+  
+   text-align: left;
+   color:  #4aaaa5;
+   margin: 20px;
+   border-bottom: 2px solid #dddddd;
+}
+#bio-image {
+
+   float: left;
+   margin: 10px; }
+
+  footer{
+    background: #666666;
+    border-top: 2px solid #4aaaa5;
+    margin-top: 20px;
+    padding: 10px;
+    clear: both;
+  }
+
+.column{
+    color: #999999;
+    }
+
+
+/* Style inputs */
+
+    #Message,#fullname,#email{
+    width: 98%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+#submit{
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+.portfolio-text{
+    
+    background: #4aaaa5;
+    color: white;
+    position: absolute;
+    width: 96%;
+    top: 62%;
+    left: 2%;
+        
+}
+
+.portfolio-image {
+ 
+    float: left;
+    padding: 20px;
+    position: relative;
+    text-align: center; 
+    
+}
+  .main_content::after {
+    content: "";
+    clear: both;
+    display:table;
+}
+
