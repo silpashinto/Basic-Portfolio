@@ -3,6 +3,8 @@ body{
     text-align: center;
     background: #dddddd;
     margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
     font-size: 17px;
     }
     * {
@@ -14,7 +16,6 @@ body{
 .topnav {
     background-color: #ffffff;
     overflow: hidden;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #777777;
     border-bottom: 2px solid #cccccc;
     padding:10px;
@@ -62,11 +63,14 @@ h2{
 }
 p{
     margin: 10px;
+   
 }
 #bio-image {
 
    float: left;
-   margin: 10px; }
+   margin: 10px; 
+   padding: 10px;
+}
 
   footer{
     background: #666666;
