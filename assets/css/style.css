@@ -78,6 +78,7 @@ p{
     margin-top: 20px;
     padding: 10px;
     clear: both;
+    
   }
 
 .column{
@@ -126,4 +127,9 @@ p{
     clear: both;
     display:table;
 }
+#submit:hover,.portfolio-text:hover{
+    background:#0deccb;
+    color: white;
+    font-weight: bolder;
 
+}
